@@ -15,9 +15,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.umartest.googleauth",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.967541328677-pu8kpt9789vgb3jl49v9hsr51bs4fak8"
+            ]
+          }
+        ]
+      }
     },
     "android": {
+      "package": "com.umartest.googleauth",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +36,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "916d2f38-1c1d-4b83-9c62-1c38628ecd71"
+      }
     }
   }
 }
