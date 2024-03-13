@@ -10,14 +10,6 @@ import { useEffect, useState } from "react";
 // npx expo install @react-native-google-signin/google-signin
 // npx expo install expo-dev-client
 
-GoogleSignin.configure({
-  webClientId:
-    "967541328677-qvnqd2c33ovf15o7ag5e3s26k7vt1vq3.apps.googleusercontent.com",
-  androidClientId:
-    "967541328677-1rlcgiukpieg10pn9ui40kjpj462ehtk.apps.googleusercontent.com",
-  iosClientId:
-    "967541328677-pu8kpt9789vgb3jl49v9hsr51bs4fak8.apps.googleusercontent.com",
-});
 
 export default function App() {
   const [error, setError] = useState();
